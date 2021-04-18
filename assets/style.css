@@ -1,0 +1,30 @@
+@media all and (max-width: 748px) {
+  body {
+    flex-direction: column;
+  }
+}
+body {
+  display: flex;
+  justify-content: center;
+  /* margin: 160px; */
+  align-items: center;
+  background-color: plum;
+  flex-wrap: wrap;
+}
+/* header {
+  text-align: center;
+  background-color: #fff;
+  align-self: flex-start;
+  justify-content: center;
+  margin: 0;
+  height: 600px;
+} */
+
+div {
+  padding: 60px;
+}
+button {
+  background-color: purple;
+  color: #fff;
+  font-size: larger;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="assets/main.js"></script>
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>String Manipulation</title>
+  </head>
+
+  <body>
+    <!-- <header><h1 id="heading">String Manipulation</h1></header> -->
+    <div>
+      <h1>Reverse string</h1>
+      <button onclick="stringManipulation(value)" value="reverseString">
+        Reverse !
+      </button>
+      <button onclick="reset()">Reset !</button>
+      <h1 class="wipe" id="str"></h1>
+      <h1 class="wipe" id="result"></h1>
+    </div>
+    <div>
+      <h1>Palindrome check</h1>
+      <button onclick="stringManipulation(value)" value="palindromeCheck">
+        Check !
+      </button>
+      <button onclick="reset()">Reset !</button>
+      <h1 class="wipe" id="palinStr"></h1>
+      <h1 class="wipe" id="checkResult"></h1>
+    </div>
+    <div>
+      <h1>Frequency count of character</h1>
+      <!-- <button onclick="stringManipulation(value)" value="freqCount"> -->
+      <button onclick="freqCount()">Count</button>
+      <button onclick="reset()">Reset !</button>
+      <h1 class="wipe" id="freqStr"></h1>
+      <h1 class="wipe" id="count"></h1>
+    </div>
+  </body>
+</html>
